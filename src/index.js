@@ -6,6 +6,7 @@ const notaRoutes = require ('./routes/notas');
 //configuracion
 const app = express();
 const port = process.env.PORT || 9000;
+app.set('json spaces', 2);
 
 
 //meddleware
